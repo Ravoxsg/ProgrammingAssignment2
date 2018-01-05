@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## For this assignment I follow the same procedure as what is done with the mean of a vector example/
 
-## Write a short comment describing this function
+## The following function creates a matrix as a list with 4 basic methods. 
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
@@ -18,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }        
 
 
-## Write a short comment describing this function
+## The following function takes a matrix as defined previously, and returns its inverse. It first checks if that inverse is already stored.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
